@@ -1,0 +1,38 @@
+body
+{
+    background-color: rgb(107, 189, 152);
+
+
+}
+
+#DivOne
+{
+    background-color: rgb(226, 225, 223);
+    padding: 1%;
+    margin-left: 40%;
+
+
+}
+
+#btn
+{
+    margin-left: 35%;
+}
+
+#DivTwo
+{
+    margin-left: 80%;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.form-group{
+
+    color: black;
+
+}
+.aaa{
+    width: 80%;
+    margin :20px;
+    background-color: #fdffe3;
+}

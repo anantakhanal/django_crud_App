@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+{% load static %}
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+
+</head>
+<body>
+{{ msg }}
+<div id="DivTwo">
+    <form action="/show">
+        <input type="submit" value="Show Records" class="bg-white rounded">
+    </form>
+</div>
+<h1 class=" bg-light">Please Enter the records</h1>
+
+<div id="DivOne">
+    <form action="/send" method="post" class="form-group">
+        {% csrf_token %}
+        <h3>ID <input required type="text" name="id" id="id" class="form-group"></h3>
+        <h3>Name <input type="text" name="name" class="form-group"></h3>
+        <h3>Data 1 <input type="text" name="data1" class="form-group"></h3>
+        <h3>Data 2 <input type="text" name="data2" class="form-group"></h3>
+
+        <input type="submit" id="btn" class="btn bg-light rounded">
+
+    </form>
+
+</div>
+</body>
+</html>

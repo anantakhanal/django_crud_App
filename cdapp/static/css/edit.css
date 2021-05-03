@@ -1,0 +1,27 @@
+
+body
+{
+    background-color: rgb(107, 189, 152);
+}
+#DivTwo{
+
+    width: 10%;
+    margin-left: 90%;
+    padding-top: 20px;
+   text-align-all: center;
+}
+h1{
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+#DivOne{
+
+    margin-top: 40px;
+}
+
+.form-group{
+    font-family: -apple-system;
+    color: black;
+
+}
